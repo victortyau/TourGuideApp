@@ -1,4 +1,4 @@
-package labs.bamboo.tourguideapp.ui.dashboard;
+package labs.bamboo.tourguideapp.ui.food;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProvider;
 
 import labs.bamboo.tourguideapp.R;
 
-public class DashboardFragment extends Fragment {
+public class FoodFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+    private FoodViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel =
-                new ViewModelProvider(this).get(DashboardViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
-        final TextView textView = root.findViewById(R.id.text_dashboard);
-        dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        homeViewModel =
+                new ViewModelProvider(this).get(FoodViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_food, container, false);
+        final TextView textView = root.findViewById(R.id.text_food);
+        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

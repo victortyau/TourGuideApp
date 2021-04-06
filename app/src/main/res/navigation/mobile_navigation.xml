@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="labs.bamboo.tourguideapp.ui.home.HomeFragment"
+        android:name="labs.bamboo.tourguideapp.ui.food.FoodFragment"
         android:label="@string/title_food"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_food" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="labs.bamboo.tourguideapp.ui.dashboard.DashboardFragment"
+        android:name="labs.bamboo.tourguideapp.ui.trips.TripsFragment"
         android:label="@string/title_trips"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/trips_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="labs.bamboo.tourguideapp.ui.notifications.NotificationsFragment"
+        android:name="labs.bamboo.tourguideapp.ui.disco.DiscoFragment"
         android:label="@string/title_disco"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_disco" />
 </navigation>
