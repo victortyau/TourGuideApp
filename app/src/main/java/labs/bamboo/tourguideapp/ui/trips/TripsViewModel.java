@@ -6,14 +6,4 @@ import androidx.lifecycle.ViewModel;
 
 public class TripsViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
-
-    public TripsViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is trips fragment");
-    }
-
-    public LiveData<String> getText() {
-        return mText;
-    }
 }
