@@ -6,4 +6,10 @@
     <string name="title_food">Food</string>
     <string name="title_trips">Trips</string>
     <string name="title_disco">Disco</string>
+    <string name="food_title">Dely Gourment</string>
+    <string name="food_desc">Delicatesen</string>
+    <string name="trips_title">Casco Antiguo</string>
+    <string name="trips_desc">Historical Place</string>
+    <string name="disco_title">Live Zone</string>
+    <string name="disco_desc">Dance Place</string>
 </resources>

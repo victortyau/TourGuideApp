@@ -29,11 +29,11 @@ public class DiscoViewAdapter extends ArrayAdapter<DiscoView> {
         assert currentDiscoPosition != null;
         imageDiscoView.setImageResource(currentDiscoPosition.getDiscoImageView());
 
-        TextView tripsTitle = currentItemView.findViewById(R.id.tripsTitle);
-        tripsTitle.setText(currentDiscoPosition.getDiscoTitle());
+        TextView discoTitle = currentItemView.findViewById(R.id.discoTitle);
+        discoTitle.setText(currentDiscoPosition.getDiscoTitle());
 
-        TextView tripsDesc = currentItemView.findViewById(R.id.tripsDesc);
-        tripsDesc.setText(currentDiscoPosition.getDiscoDisc());
+        TextView discoDesc = currentItemView.findViewById(R.id.discoDesc);
+        discoDesc.setText(currentDiscoPosition.getDiscoDisc());
 
         return currentItemView;
     }

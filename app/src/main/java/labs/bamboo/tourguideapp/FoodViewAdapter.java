@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import labs.bamboo.tourguideapp.ui.food.FoodFragment;
+
 public class FoodViewAdapter extends ArrayAdapter<FoodView> {
 
     public FoodViewAdapter(Context context, ArrayList<FoodView> arrayList) {
