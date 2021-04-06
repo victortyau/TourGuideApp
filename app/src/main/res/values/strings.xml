@@ -12,4 +12,7 @@
     <string name="trips_desc">Historical Place</string>
     <string name="disco_title">Live Zone</string>
     <string name="disco_desc">Dance Place</string>
+    <string name="title_event">Event</string>
+    <string name="event_title">FUDcon</string>
+    <string name="event_desc">Fedora users and Developers</string>
 </resources>

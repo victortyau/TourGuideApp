@@ -31,7 +31,9 @@ public class TripsFragment extends Fragment {
         ArrayList<TripsView> arrayList = new ArrayList<TripsView>();
 
         for( int i = 0; i < 20; i++ ){
-            arrayList.add(new TripsView(R.drawable.rails_9, "Casco Antiguo", "Historical Place"));
+            arrayList.add(new TripsView(R.drawable.rails_9,
+                    getResources().getString(R.string.trips_title),
+                    getResources().getString(R.string.food_desc)));
         }
 
         TripsViewAdapter tripsViewAdapter = new TripsViewAdapter(container.getContext(), arrayList);

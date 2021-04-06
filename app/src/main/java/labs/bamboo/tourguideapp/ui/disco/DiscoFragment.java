@@ -34,7 +34,9 @@ public class DiscoFragment extends Fragment {
         ArrayList<DiscoView> arrayList = new ArrayList<DiscoView>();
 
         for( int i = 0; i < 20; i++ ) {
-            arrayList.add(new DiscoView(R.drawable.angular_9, "Live Zone", "Dance Place"));
+            arrayList.add(new DiscoView(R.drawable.angular_9,
+                    getResources().getString(R.string.disco_title),
+                    getResources().getString(R.string.food_desc)));
         }
 
         DiscoViewAdapter discoViewAdapter = new DiscoViewAdapter(container.getContext(), arrayList);

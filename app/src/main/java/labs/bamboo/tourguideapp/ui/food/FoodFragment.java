@@ -34,7 +34,9 @@ public class FoodFragment extends Fragment {
         final ArrayList<FoodView> arrayList = new ArrayList<FoodView>();
 
         for(int i = 0; i < 20; i++) {
-            arrayList.add(new FoodView(R.drawable.jest_9, "Dely Gourment", "Delicatesen" ));
+            arrayList.add(new FoodView(R.drawable.jest_9,
+                    getResources().getString(R.string.food_title),
+                    getResources().getString(R.string.food_desc)));
         }
 
         FoodViewAdapter foodViewAdapter = new FoodViewAdapter(container.getContext(), arrayList);

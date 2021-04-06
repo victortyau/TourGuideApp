@@ -22,4 +22,10 @@
         android:name="labs.bamboo.tourguideapp.ui.disco.DiscoFragment"
         android:label="@string/title_disco"
         tools:layout="@layout/fragment_disco" />
+
+    <fragment
+        android:id="@+id/event"
+        android:name="labs.bamboo.tourguideapp.ui.event.EventFragment"
+        android:label="@string/title_event"
+        tools:layout="@layout/fragment_event" />
 </navigation>
